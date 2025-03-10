@@ -93,7 +93,7 @@ function Quotes() {
         'Ordinary people think merely of spending time, great people think of using it. -Arthur Schopenhauer',
         'Think not long; but do; do not long, but think. -Confucius',
         'You can not swim for new horizons until you have courage to lose sight of the shore. -William Faulkner',
-        'The most common way people give up their power is by thinking they don\;t have any. -Alice Walker',
+        'The most common way people give up their power is by thinking they don\'t have any. -Alice Walker',
         'You can have results or excuses but not both. -Gov. Arnold Schwarzenegger',
         'Give me six hours to chop down a tree and I will spend the first four sharpening the axe. -Woodsman',
         'Better a diamond with a flaw than a pebble without. -Confucius',
@@ -174,7 +174,7 @@ function Quotes() {
       useEffect(() => {
         const intervalId = setInterval(() => {
           setQuote(getRandomQuote());
-        }, 10000);
+        }, 15000);
     //unmount quotes component as necessary for switching between components/routes
         return () => clearInterval(intervalId);
       },[]);
